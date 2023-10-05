@@ -8,5 +8,30 @@
 
 /* TYPOGRAPHY */
 
+body {
+    color: white;
+}
+
 /* COMMON */
 
+body {
+    background-color: black;
+}
+
+button {
+    border: 0;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 5px 7px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
