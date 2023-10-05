@@ -18,7 +18,7 @@ body {
     background-color: black;
 }
 
-button {
+header button {
     border: 0;
     background-color: #4a4a4a;
     color: white;
@@ -30,6 +30,18 @@ button {
 }
 
 .user-name {
+    font-size: 14px;
+}
+
+footer .fa-solid, footer .fa-brands {
+    font-size: 30px;
+}
+
+footer .fa-chevron-up {
+    font-size: 13px;
+}
+
+footer span {
     font-size: 14px;
 }
 
@@ -59,10 +71,6 @@ header {
     position: relative;
 }
 
-.video-box img {
-    border: 1px forestgreen solid;
-}
-
 .user-name {
     position: absolute;
     left: 5px;
@@ -71,8 +79,58 @@ header {
     padding: 3px;
 }
 
+/* FOOTER */
+
 footer {
    height: 80px;  /* can give fixed height as webApp */
-   border: forestgreen solid 1px;
    display: flex;
+   background-color: #222222;
 }
+
+/* LEFT ICONS */
+
+.button-left {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.button-left i {
+    margin: 0 10px;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+/* CENTER BAR */
+
+.center-bar {
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.center-bar i {
+    margin: 0 20px;
+}
+
+.fa-share-from-square {
+    color: #4bc800;
+}
+
+
+/* RIGHT ICONS */
+
+footer button {
+    padding: 20px;
+    color: red;
+    font-size: 16px;
+    background-color: #4a4a4a;
+}
+
