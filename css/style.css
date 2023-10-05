@@ -113,7 +113,6 @@ footer {
     justify-content: center;
     display: flex;
     align-items: center;
-    position: relative;
 }
 
 .center-bar i {
@@ -133,4 +132,5 @@ footer button {
     font-size: 16px;
     background-color: #4a4a4a;
 }
+
 
