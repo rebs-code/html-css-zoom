@@ -70,3 +70,9 @@ header {
     background-color: rgba(0, 0, 0, 0.397);
     padding: 3px;
 }
+
+footer {
+   height: 80px;  /* can give fixed height as webApp */
+   border: forestgreen solid 1px;
+   display: flex;
+}
