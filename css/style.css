@@ -29,11 +29,16 @@ button {
     margin-top: 5px;
 }
 
+.user-name {
+    font-size: 14px;
+}
+
 /* HEADER */
 
 header {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 10px;
 }
 
 /* MAIN */
@@ -45,10 +50,23 @@ header {
     gap: 5px;
     height: 100vh;
     width: 100vw;
-    padding-top: 50px;
-    overflow: auto
+    padding-top: 40px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.video-box {
+    position: relative;
 }
 
 .video-box img {
     border: 1px forestgreen solid;
+}
+
+.user-name {
+    position: absolute;
+    left: 5px;
+    bottom:5px;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 3px;
 }
