@@ -59,6 +59,10 @@ main {
     overflow: auto;
 }
 
+main img {
+    display: block;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
